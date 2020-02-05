@@ -1,5 +1,5 @@
 # Object Detection React App
-dsadas
+
 You can find an in depth walkthrough for training a TensorFlow.js model [here](https://github.com/cloud-annotations/training/).
 
 ## Setup
