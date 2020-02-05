@@ -3,8 +3,10 @@ import { useEffect } from 'react'
 const SCORE_DIGITS = 4
 
 const getLabelText = (prediction) => {
-    const scoreText = prediction.score.toFixed(SCORE_DIGITS)
-    return prediction.class + ', score: ' + scoreText
+  const scoreText = prediction.score.toFixed(SCORE_DIGITS)
+  console.log(prediction.class)
+  return prediction.class + ', score: ' + scoreText
+
 }
 
 const renderPredictions = (predictions, canvasRef) => {
